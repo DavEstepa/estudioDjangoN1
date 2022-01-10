@@ -1,3 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
+#---NOTAS
+
+#python manage.py createsuperuser
+
+from .models import Pregunta
+
+admin.site.register(Pregunta)
